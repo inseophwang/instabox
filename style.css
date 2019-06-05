@@ -1,0 +1,50 @@
+#app{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: 500px;
+    width: 900px;
+
+}
+
+#story{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+
+}
+
+.bottom-pictures{
+    height: 40px;
+}
+
+.logo-image{
+    height: 50px;
+
+}
+
+#container{
+    background-color: yellow;
+    height: 100px;
+    width: 500px;
+}
+
+#bio{
+    background-color: blue;
+    height: 100px;
+    width: 500px;
+}
+
+#top{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
