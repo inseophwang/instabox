@@ -122,3 +122,17 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+
+h3{
+    font-size: 20px;
+}
+
+#help-instagram{
+    color: #003569;
+    font-size: 20px;
+}
+
+#kevin{
+    font-size: 13px;
+    height: 25px;
+}
