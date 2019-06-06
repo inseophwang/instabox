@@ -1,13 +1,23 @@
+#front-space{
+    width: 5%;
+}
+
+#back-space{
+    width: 5%;
+}
+
 #empty{
-    height: 75px;
+    height: 40px;
     width: 500px;
     background-color: black;
 }
 
 #posted{
-    height: 40px;
+    height: 90px;
     width: 500px;
     background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
 }
 
 #gray-and-logo-holder{
@@ -23,13 +33,14 @@
     background-color: red;
     height: 600px;
     width: 960px;
+    justify-content: flex-end;
 
 }
 
 #story{
     display: flex;
     flex-direction: row;
-    background-color: green;
+    background-color: #FAFAFA;
     justify-content: space-between;
 
 }
@@ -48,19 +59,19 @@
 /* This is the yellow box */
 #container{
     background-color: yellow;
-    height: 200px;
+    height: 80px;
     width: 500px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     /* margin-top: 50px; */
 }
 
 
 /* this is the blue box */
 #bio{
-    background-color: blue;
+    background-color: #FAFAFA;
     height: 210px;
     width: 569px;
     display: flex;
@@ -85,21 +96,21 @@ body{
 }
 
 #button{
-    height: 70px;
-    width: 200px;
+    height: 30px;
+    width: 100px;
 }
 
 #checky{
-    height: 50px;
+    height: 20px;
 }
 
 #instaword{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #bringing-heart{
     display: flex;
-    justify-content: space-between; 
+    /* justify-content: space-between;  */
 }
 
 #blue-bio-holder{
