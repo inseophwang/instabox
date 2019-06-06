@@ -1,3 +1,11 @@
+#help-instagram-text{
+    padding-top: 5px;
+}
+
+#bringing-closer{
+    padding-top: 15px;
+}
+
 #instaword-holder{
     height: 45px;
 }
@@ -19,7 +27,7 @@
 #posted{
     /* height: 90px; */
     width: 500px;
-    background-color: palevioletred;
+    background-color: #FBFBFB;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,10 +43,11 @@
 #app{
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color: #FBFBFB;
     height: 600px;
     width: 960px;
     justify-content: flex-end;
+    padding-bottom: 40px;
 
 }
 
@@ -63,12 +72,12 @@
 
 /* This is the yellow box */
 #container{
-    background-color: yellow;
+    background-color: #FBFBFB;
     height: 80px;
-    width: 500px;
+    width: 270px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     /* margin-top: 50px; */
 }
@@ -77,7 +86,8 @@
 /* this is the blue box */
 #bio{
     background-color: #FAFAFA;
-    height: 210px;
+    /* height: 210px; */
+    height: 170px;
     width: 569px;
     display: flex;
     flex-direction: column;
@@ -86,7 +96,7 @@
 
 /* This is the gray box */
 #top{
-    background-color: grey;
+    background-color: #FBFBFB;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -101,12 +111,12 @@ body{
 }
 
 #button{
-    height: 30px;
+    height: 40px;
     width: 100px;
 }
 
 #checky{
-    height: 20px;
+    height: 30px;
 }
 
 #instaword{
@@ -125,11 +135,12 @@ body{
 
 #yellow-container-holder{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 h3{
     font-size: 20px;
+    padding-top: 15px;
 }
 
 #help-instagram{
@@ -139,5 +150,6 @@ h3{
 
 #kevin{
     font-size: 13px;
-    height: 25px;
+    /* height: 25px; */
+    padding-top: 10px;
 }
