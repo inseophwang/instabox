@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     background-color: green;
+    justify-content: space-around;
 
 }
 
@@ -19,7 +20,6 @@
 }
 
 #logo{
-    background-color: aquamarine;
     height: 150px;
     width: 185px;
 }
@@ -32,20 +32,31 @@
     background-color: aqua;
 }
 
+
+
+/* This is the yellow box */
 #container{
     background-color: yellow;
     height: 250px;
     width: 500px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
+
+/* this is the blue box */
 #bio{
     background-color: blue;
-    height: 100px;
+    height: 210px;
     width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
+/* This is the gray box */
 #top{
     background-color: grey;
     display: flex;
@@ -63,6 +74,29 @@ body{
 }
 
 #button{
-    height: 75px;
-    width: 300px;
+    height: 70px;
+    width: 200px;
+}
+
+#checky{
+    height: 50px;
+}
+
+#instaword{
+    font-size: 50px;
+}
+
+#bringing-heart{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#blue-bio-holder{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#yellow-container-holder{
+    display: flex;
+    justify-content: flex-end;
 }
