@@ -89,7 +89,9 @@ body{
 
 #bringing-heart{
     display: flex;
-    justify-content: space-between; 
+    justify-content: flex-start;
+    font-style: normal;
+    font-size: 20px;
 }
 
 #blue-bio-holder{
@@ -100,4 +102,18 @@ body{
 #yellow-container-holder{
     display: flex;
     justify-content: flex-end;
+}
+
+h3{
+    font-size: 20px;
+}
+
+#help-instagram{
+    color: #003569;
+    font-size: 20px;
+}
+
+#kevin{
+    font-size: 13px;
+    height: 25px;
 }
