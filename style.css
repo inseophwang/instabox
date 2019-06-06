@@ -1,9 +1,28 @@
+#empty{
+    height: 75px;
+    width: 500px;
+    background-color: black;
+}
+
+#posted{
+    height: 40px;
+    width: 500px;
+    background-color: palevioletred;
+}
+
+#gray-and-logo-holder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 #app{
     display: flex;
     flex-direction: column;
     background-color: red;
-    height: 500px;
-    width: 900px;
+    height: 600px;
+    width: 960px;
 
 }
 
@@ -11,7 +30,7 @@
     display: flex;
     flex-direction: row;
     background-color: green;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -25,25 +44,17 @@
     width: 185px;
 }
 
-.logo-image{
-    height: 150px;
-    width: 185px;
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-}
-
-
 
 /* This is the yellow box */
 #container{
     background-color: yellow;
-    height: 250px;
+    height: 200px;
     width: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    /* margin-top: 50px; */
 }
 
 
@@ -51,7 +62,7 @@
 #bio{
     background-color: blue;
     height: 210px;
-    width: 500px;
+    width: 569px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -61,9 +72,8 @@
 #top{
     background-color: grey;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
 }
 
 body{
