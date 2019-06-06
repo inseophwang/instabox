@@ -16,7 +16,8 @@
 }
 
 .bottom-pictures{
-    height: 40px;
+    height: 120px;
+    width: 115px;
 }
 
 #logo{
@@ -61,7 +62,7 @@
     background-color: grey;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
 
